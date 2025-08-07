@@ -139,7 +139,7 @@ const { singleUser } = useSelector((state) => state.user);
   
   const userFromStorage = JSON.parse(localStorage.getItem("singleUser"));
 
-console.log("User from localStorage:", userFromStorage.username);
+// console.log("User from localStorage:", userFromStorage.username);
 
 
 // try------------
